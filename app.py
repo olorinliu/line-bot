@@ -42,8 +42,6 @@ def handle_message(event):
 
     if msg == "hi":
         r = "hi"
-    elif  msg == "hello" or "Hello":
-        r = "hello!"
     elif msg == "你在幹嘛":
         r = "在想你啊<3"
     elif msg == "你吃飯了嗎":
